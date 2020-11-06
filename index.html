@@ -6,11 +6,12 @@
     <title>Hot Gadgets</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="resources/logo.png">
 </head>
 <body>
     <div id="navi-bar"class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand img-responsive" href="#"><img src="resources/logo.png"></a>
+        <nav class="navbar fixed-top text-white bg-dark navbar-expand-lg navbar-dark">
+            <a class="navbar-brand img-responsive" href="#"><img class="logo" src="resources/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,19 +30,173 @@
                     <a class="nav-link" 
                  href="#Contact-Us">Contact Us</a>
                   </li>
-                
-                
-                
-                
-                
-              </ul>
+                </ul>
             </div>
           </nav>
     </div>
+    
+    
+    <div id="bg1" class="container">
+        <div id="carouselExampleFade" class="carousel slide slider" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                 <div class="row align-items-center">
+                     <div class="col-md-7">
+                        <h2>Mackbook Pro</h2>
+                        <p>Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels.The Apple MacBook Pro packs 512GB of SSD storage. Connectivity options include Wi-Fi 802.11 ac, Bluetooth and it comes with 2 USB ports (2 x USB 3.0), Mic In ports.</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                     </div>
+                     <div class="col-md-5">
+                        <img src="resources/banner-products/product-1.png" class="d-block w-100"
+                        alt="Laptop">
+                     </div>
+                 </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h2>Google Home</h2>
+                        <p>Google Nest, previously named Google Home, is a line of smart speakers developed by Google under the Google Nest brand. The devices enable users to speak voice commands to interact with services through Google Assistant, the company's virtual assistant.</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="resources/banner-products/slider-1.png" class="d-block w-100"alt="google home">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h2>Beats Studio3 Wireless</h2>
+                        <p>Beats Studio3 Wireless over-ear headphones delivers premium sound while blocking external noise with Active Noise Cancelling</p>
+                        <button class="buy-now-btn">Buy Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="resources/banner-products/slider-3.png" class="d-block w-100"alt="Beats">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <h2 id="#Product">Smartphones</h2>
+            <a href="#">Sell all</a>
+        </div>
+          <div>
+            <div class="card-deck">
+              <div class="card">
+                <img src="resources/phone/phone-1.png" class="card-img-top" alt="Redmi">
+                <div class="card-body">
+                  <h5 class="card-title">Redmi Note 9</h5>
+                  <p class="card-text">Redmi Note 9 is a line of Android-based smartphones as part of the Redmi Note series by Redmi, a sub-brand of Xiaomi Inc.</p>
+                  <h5>$360</h5>
+                  <button class="buy-now-btn phone-btn">Buy Now</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="resources/phone/phone-2.png" class="card-img-top" alt="iphn">
+                <div class="card-body">
+                  <h5 class="card-title">Iphone XI</h5>
+                  <p class="card-text">The iPhone 11 is the newest iPhone out there, and it's known for holding value extraordinarily well compared to the rest of the smartphone market. </p>
+                  <h5>$350</h5>
+                  <button class="buy-now-btn phone-btn">Buy Now</button>
+                </div>
+              </div>
+              <div class="card">
+                <img src="resources/phone/phone-3.png" class="card-img-top" alt="Samsung">
+                <div class="card-body">
+                  <h5 class="card-title">Galaxy Note 9</h5>
+                  <p class="card-text">AnTuTu: 248823 (v7), 315447 (v8)
+                    GeekBench: 9026 (v4.4), 2092 (v5.1)
+                    GFXBench: 15fps (ES 3.1 onscreen)
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h5>$800</h5>
+                    <button class="buy-now-btn phone-btn">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>      
+    </div>
+    <div class="container">
+      <div class="row d-flex 
+        justify-content-between">
+        <h2>Laptops</h2>
+        <a href="#Products">Sell all</a>
+      </div>
+      <div>
+        <div class="card-deck">
+          <div class="card">
+            <img src="resources/laptop/product-1.png" class="card-img-top" alt="Laptop">
+            <div class="card-body">
+              <h5 class="card-title">Asus ROG 102</h5>
+              <p class="card-text">Fastest of all time.</p>
+              <h5>$800</h5>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="resources/laptop/product-2.png" class="card-img-top" alt="laptop">
+            <div class="card-body">
+              <h5 class="card-title">HP Pro Book</h5>
+              <p class="card-text">Cheap and fun.</p>
+              <h5>$750</h5>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="resources/laptop/product-3.png" class="card-img-top" alt="laptop">
+            <div class="card-body">
+              <h5 class="card-title">Mackbook Pro</h5>
+              <p class="card-text">Hot deal.</p>
+            </div>
+            <div class="card-footer">
+              <button class="buy-now-btn">Buy Now</button>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </div>
+    <div id="cats" class="container">
+      <h3 class="cata">Catagories</h3>
+      <div class="row d-flex justify-content-center align-items-center">
+        <col-md-6>
+          <div class="row d-flex align-items-center">
+            <div class="col-md-3">
+              <img id="center"class="boxs" src="resources/Categories/bag.png" alt="">
+            </div>
+            <div class="col-md-3">
+              <img class="boxs" src="resources/Categories/perfume.png" alt="">
+              <img class="boxs" src="resources/Categories/shoe.png" alt="">
+            </div>
+          </div>
+        </col-md-6>
+        <col-md-6>
+          <img src="resources/Categories/pale-order.png" alt="">
+        </col-md-6>
+      </div>
+    </div>
+    <footer>
+      <small>©2020 Hot Gadgets. All rights 
+    reserved. 
+      Dhaka, Bangladesh</small>
+    </footer>
 
-
-
-
+    
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>

@@ -1,0 +1,77 @@
+.logo{
+    width: 100px;;
+}
+.buy-now-btn{
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    transition: transform .5s ease-in-out;
+    
+}
+.buy-now-btn:hover{
+    transform: translateX(10%);
+    height: 50px;
+    width: 100px;
+}
+.slider{
+    background-image: url(resources/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#bg1{
+    background-image: url(resources/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+#bg image{
+    height: 100px;
+    width: 100px;
+}
+.container{
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none !important;
+    color: rgb(255, 174, 0);
+    font-weight: 700;
+    transition: 1s ease-in-out;
+}
+a:hover{
+    text-decoration: none !important;
+    color: purple;
+    
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px 5px #888888;
+    padding: 10px;
+    margin-top: 35px;
+}
+p{
+    font-weight: 400;
+}
+.card-footer{
+    border-top: none;
+    background-color:white;
+}
+.cata{
+    text-align: center;
+}
+#cats img{
+    max-width: 400px;
+    max-height: 550px;
+    padding: 50px;
+    margin-top: 10px;
+}
+.boxs{
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
+.navbar-toggler-icon{
+    background-image: white;
+}
+
